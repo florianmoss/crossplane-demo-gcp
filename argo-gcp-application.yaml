@@ -11,9 +11,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/nicolas-g/crossplane-samples.git
+    repoURL: https://github.com/florianmoss/crossplane-demo-gcp.git
     targetRevision: HEAD
-    path: infra/gcp
+    path: gcp
   destination:
     server: https://kubernetes.default.svc
     namespace: default
