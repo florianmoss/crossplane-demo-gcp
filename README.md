@@ -15,6 +15,7 @@ This is just a demo of my Crossplane POC.
     - [Crossplane GCP ProviderConfig](#crossplane-gcp-providerconfig)
   - [Provision GCP resources with Crossplane](#provision-gcp-resources-with-crossplane)
   - [GCP Service Account Key](#gcp-service-account-key)
+  - [Wanna run it in Argo?](#wanna-run-it-in-argo)
 
 ## Requirements
 - A Kubernetes cluster (can also be minikube, kind, k3d etc..)
@@ -117,6 +118,10 @@ network.compute.gcp.crossplane.io/demo-network created
 subnetwork.compute.gcp.crossplane.io/demo-subnet created
 ```
 
+## Wanna run it in Argo?
+kubectl apply -f https://raw.githubusercontent.com/florianmoss/crossplane-demo-gcp/master/argo-gcp-application.yaml
+
+```
 ## GCP Service Account Key
 
 ```
