@@ -1,3 +1,4 @@
 
 # Crossplane Composition Packages
 *.xpkg
+.DS_Store
