@@ -119,9 +119,10 @@ subnetwork.compute.gcp.crossplane.io/demo-subnet created
 ```
 
 ## Wanna run it in Argo?
-kubectl apply -f https://raw.githubusercontent.com/florianmoss/crossplane-demo-gcp/master/argo-gcp-application.yaml
-
 ```
+kubectl apply -f https://raw.githubusercontent.com/florianmoss/crossplane-demo-gcp/master/argo-gcp-application.yaml
+```
+
 ## GCP Service Account Key
 
 ```
